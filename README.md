@@ -114,7 +114,7 @@ Não há dados pessoais na base utilizada. Todos os registros são agregados por
 
 ## Estratégia de coleta
 
-A coleta ocorre diretamente do servidor HTTP da ANS, sem download manual intermediário. O notebook `01_bronze_ingestao` percorre as 24 competências, lê cada arquivo e persiste o conjunto empilhado em tabela Delta.
+A coleta ocorre diretamente do servidor HTTP da ANS, sem download manual intermediário. O notebook percorre as 24 competências, lê cada arquivo e persiste o conjunto empilhado em tabela Delta.
 
 ```python
 COMPETENCIAS = [f"{ano}{tri}" for ano in range(2020, 2026)
@@ -380,7 +380,7 @@ completo está disponível no repositório, em `notebooks/`.
 
 # 5. Qualidade de Dados (Etapa 4.5)
 
-Foram registrados 24 achados, organizados como sintoma → investigação → causa → tratamento → impacto. A seção abaixo apresenta os mais relevantes; o registro completo está em `docs/achados_qualidade_dados.md`.
+Foram registrados 24 achados, organizados como sintoma → investigação → causa → tratamento → impacto. A seção abaixo apresenta os mais relevantes; o registro completo está em [`docs/achados_qualidade_dados.md`](docs/achados_qualidade_dados.md).
 
 ## Problemas detectados e tratados
 
