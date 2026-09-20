@@ -373,8 +373,9 @@ WHERE NIVEL = 1 AND LG_ITEM_SEM_DESPESA = false;
 
 ## Evidência
 
-As evidências de persistência e de catálogo constam das seções 2 e 3. O código
-completo está disponível no repositório, em `notebooks/`.
+As evidências de persistência e de catálogo constam das seções 2 e 3.
+
+O pipeline completo está em [`notebooks/MVP_IsaiasCordeiro.py`](notebooks/MVP_IsaiasCordeiro.py) e a investigação inicial das fontes em [`notebooks/00_exploracao.py`](notebooks/00_exploracao.py).
 
 ---
 
